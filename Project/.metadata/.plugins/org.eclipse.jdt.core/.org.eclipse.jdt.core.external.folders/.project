@@ -10,11 +10,6 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>.link0</name>
-			<type>2</type>
-			<location>C:/adt-bundle-windows-x86-20130717/sdk/sources/android-18</location>
-		</link>
-		<link>
 			<name>.link1</name>
 			<type>2</type>
 			<location>C:/adt-bundle-windows-x86-20130717/sdk/sources/android-20</location>

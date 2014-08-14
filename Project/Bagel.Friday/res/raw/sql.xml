@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sql>
+<statement>DROP TABLE EmployeesTable</statement>
+<statement>
+CREATE TABLE IF NOT EXISTS EmployeesTable (
+	_id INTEGER PRIMARY KEY AUTOINCREMENT, 
+	firstName VARCHAR(50), 
+	lastName VARCHAR(50), 
+	scheduledDate VARCHAR(50))
+</statement>
+
+<statement>INSERT INTO EmployeesTable VALUES(1, "Balaji","Sundaresan", "07/25/2014")</statement>
+<statement>INSERT INTO EmployeesTable VALUES(2, "Inna","Akhiezer", "08/01/2014")</statement>
+</sql>

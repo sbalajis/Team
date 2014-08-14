@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  
+   <TextView android:id="@+id/scheduledDate" 
+      android:layout_marginLeft="6dp" 
+      android:layout_marginStart="6dp" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content"
+      android:gravity="start"/> 
+       
+   <TextView android:id="@+id/constantText" 
+      android:layout_marginLeft="6dp" 
+      android:layout_marginStart="6dp" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:text="@string/filler" 
+      android:layout_toRightOf="@id/scheduledDate"
+      android:layout_toEndOf="@id/scheduledDate" /> 
+      
+  <TextView android:id="@+id/firstName" 
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="start"
+      android:layout_toRightOf="@id/constantText" 
+      android:layout_toEndOf="@id/constantText"/> 
+   
+  <TextView android:id="@+id/lastName" 
+      android:layout_marginLeft="6dp" 
+      android:layout_marginStart="6dp" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content"
+      android:gravity="start"
+      android:layout_toRightOf="@id/firstName"
+      android:layout_toEndOf="@id/firstName" /> 
+      
+  
+  
+ </RelativeLayout>
